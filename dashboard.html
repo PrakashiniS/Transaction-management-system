@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,
+               initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" class="css" />
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+ 
+
+ 
+
+
+ 
+.text {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: aliceblue;
+    color: aliceblue;
+}
+ 
+.course {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+ 
+
+ 
+.centre-content-h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+}
+ 
+.price {
+    font-size: 60px;
+    margin-left: 5px;
+    bottom: 15px;
+    position: relative;
+}
+ 
+.pay-now-btn {
+    cursor: pointer;
+    color: #fff;
+    height: 50px;
+    width: 290px;
+    border: none;
+    margin: 5px 30px;
+    background-color: rgb(71, 177, 61);
+    position: relative;
+}
+ 
+.card-details {
+    background: rgb(8, 49, 14);
+    color: rgb(225, 223, 233);
+    margin: 10px 500px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border-bottom-left-radius: 80px; */
+}
+ 
+.card-details p {
+    font-size: 15px;
+}
+ 
+.card-details label {
+    font-size: 15px;
+    line-height: 35px;
+}
+ 
+.submit-now-btn {
+    cursor: pointer;
+    color: #fff;
+    height: 30px;
+    width: 240px;
+    border: none;
+    margin: 5px 30px;
+    background-color: rgb(71, 177, 61);
+}
+</style>
+<body>
+  
+    <center>
+ <form action="dasboard.php" method="post" >
+        <div class="centre-content"><br><br>
+            <h1 style="font: size 250 ;text-align:center">TRANSACTION MANAGEMENT</h1>
+            </div><br><br><br>
+
+            <!-- <button type="button"
+                    class="pay-now-btn">
+                Pay with Netbanking
+            </button> -->
+ 
+            <!-- <button type="button" class="pay-now-btn">
+        Netbanking options
+        </button> -->
+        </div>
+ 
+        <div class="card-details">
+            <p>Pay using Credit or Debit card or UPI</p><br><br>
+ 
+            <div class="title">
+                <label> TITLE</label>
+                <input type="text"
+                       class="title-field"
+                       placeholder="enter your name" name="title"/>
+</div><br>
+                       <div class="account number">
+                        <label>ACCOUNT NUMBER </label>
+                        <input type="text"
+                               class="account number-field"
+                               placeholder="enter your ACC.NO"name="account" />
+            </div><br>
+
+            <div class="IFSC code">
+                <label>IFSC CODE </label>
+                <input type="text"
+                       class="ifsc-field"
+                       placeholder="enter your IFSC code"name="code" />
+    </div>
+            <br />
+            <div class="amount">
+                <label> AMOUNT </label>
+                <input type="text"
+                       class="amount-field"
+                       placeholder="amount" name="amo" />
+            </div><br>
+ 
+            <div class="date">
+                <label> DATE </label>
+                <input type="text"
+                       class="date-field"
+                       placeholder="DD-MM-YY" name="date"/>
+            </div><br>
+            <div class="description">
+                <label> DESCRIPTION </label>
+                <input type="text"
+                       class="description-field"
+                       placeholder="Enter your description" name="description" />
+            </div>
+           <a href="dasboard.php"> <button type="submit"
+                    class="submit-now-btn" >
+                submit
+            </button></a>
+        </div>
+    </div>
+    
+    </style>
+  </form>
+  </center>
+</body>
+</html>
+</body>
+</html>
